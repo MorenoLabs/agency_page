@@ -17,7 +17,7 @@ export function Hero() {
             Innovating the Future of Technology
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Pioneering XAI solutions and technological initiatives that transform industries and drive innovation forward.
+            Pioneering XAI solutions and technological initiatives that transform industries and drive innovation forward. Moonshining and Trystorming
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button 

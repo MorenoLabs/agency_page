@@ -1,8 +1,31 @@
+import { Hero } from "@/components/sections/Hero";
+import { Header } from "@/components/layout/Header";
+
+export default function Home() {
+  return (
+    <main>
+      <Header />
+      <Hero />
+      <section id="services">
+        {/* Services content */}
+      </section>
+      <section id="solutions">
+        {/* Solutions content */}
+      </section>
+      <section id="projects">
+        {/* Projects content */}
+      </section>
+      <section id="think-tank">
+        {/* Think Tank content */}
+      </section>
+    </main>
+  );
+}
 
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/layout/Container";
-import { useScrollTo } from "@/hooks.useScrollTo";
+import { useScrollTo } from "@/hooks/useScrollTo";
 import {
   Sheet,
   SheetContent,
@@ -181,11 +204,3 @@ export function Hero() {
     </section>
   );
 }
-
-<section id="solutions">
-  {/* Solutions content */}
-</section>
-
-<section id="projects">
-  {/* Projects content */}
-</section>
